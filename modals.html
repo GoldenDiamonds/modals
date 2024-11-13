@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal con Información Adicional en Cada Celda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Botón para abrir el modal -->
+<button id="openModalBtn">Abrir Modal</button>
+
+<!-- El Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Información en 2 Columnas y 4 Filas</h2>
+    
+    <!-- Grid con 2 columnas y 4 filas -->
+    <div class="grid-container">
+      <div class="grid-item">
+        Fila 1, Columna 1
+        <div class="additional-info">Dato adicional 1</div>
+      </div>
+      <div class="grid-item">
+        Fila 1, Columna 2
+        <div class="additional-info">Dato adicional 2</div>
+      </div>
+      <div class="grid-item">
+        Fila 2, Columna 1
+        <div class="additional-info">Dato adicional 3</div>
+      </div>
+      <div class="grid-item">
+        Fila 2, Columna 2
+        <div class="additional-info">Dato adicional 4</div>
+      </div>
+      <div class="grid-item">
+        Fila 3, Columna 1
+        <div class="additional-info">Dato adicional 5</div>
+      </div>
+      <div class="grid-item">
+        Fila 3, Columna 2
+        <div class="additional-info">Dato adicional 6</div>
+      </div>
+      <div class="grid-item">
+        Fila 4, Columna 1
+        <div class="additional-info">Dato adicional 7</div>
+      </div>
+      <div class="grid-item">
+        Fila 4, Columna 2
+        <div class="additional-info">Dato adicional 8</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
